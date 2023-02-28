@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font {
+    text-align: center;
+    font-size: medium;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(8, 100px);
+
+    height: 900px;
+    width: 800px;
+}
+
+
+
+
+.header {
+    display: grid;
+    background-color: #c7c5c5;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+
+
+.main {
+    display: grid;
+    background-color: #f4efc4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+
+}
+
+
+.mini-container {
+    display: grid;
+    background-color: #f4efc4;
+    grid-template-columns: repeat(6, 60px);
+    grid-template-rows: repeat(6, 30px);
+
+}
+
+.else1 {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.else2 {
+    background-color: white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.else3 {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.sidebar {
+    background-color: #c3dbc0;
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+
+}
+
+
+.element1 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.element2 {
+    background-color: white;
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.element3 {
+    background-color: white;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.element4 {
+    background-color: white;
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.footercontainer {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.footer {
+    display: grid;
+    background-color: #c7c5c5;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
