@@ -115,8 +115,6 @@ body {
 
 .content {
     background-color: #EFEFEF;
-    margin-left: 105px;
-    margin-right: 105px;
     margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(3, 340px);
@@ -215,7 +213,8 @@ body {
 }
 
 .content__image-independent {
-    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .amount {
